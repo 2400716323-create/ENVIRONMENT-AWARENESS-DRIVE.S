@@ -1,0 +1,209 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Trebuchet MS',sans-serif;
+
+
+    line-height: 1.5;
+}
+header{
+    text-align: center;
+    font-size: larger;
+    margin: 20px 0;
+}
+
+a{  
+     text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    font-size: 16px;
+    padding: 30px 20px;
+    line-height: 50px;
+    margin-right: 20px;
+    margin-left: 60px;
+    transition: 0.5s ease;
+    text-align: center;
+    border-radius: 3px;
+}
+.ha{
+     
+     
+    
+    background-color: #350452;
+    
+}
+.logo{
+    text-align: center;
+}
+.logo img{
+        width: 150px;
+        height: 150px;
+        border-radius: 150px;
+        
+        
+    
+}
+.main-container{
+    width: 100%;
+}
+.desc{
+    display: flex;
+}
+.desc img{
+    width: 30%;
+    height: 40%;
+}
+.para{
+    width: 50%;
+    
+    margin-left: 90px;
+    
+
+}
+.para h2,.m,.k{
+    margin: 20px 20px ;
+    line-height: 20px;
+}
+.p{
+    line-height: 30px;
+    
+}
+.para h2{
+    text-transform: uppercase;
+    color: red;
+    font-size: bold;
+    font-weight: 900;
+}
+.info{
+     display: flex;
+    padding: 40px 20px;
+}
+.mission,.vission,.objective,.motivation{
+    width: 25%;
+    height: 100%;
+    padding-right: 10px;
+    line-height: 50px;
+    margin-top: 10px;
+    
+    
+}
+.mission,.vission,.objective,.motivation{
+    background-color: #fff;
+    margin: 10px;
+    padding: 30px 20px;
+    
+}
+.mission{
+    margin: 0 50px;
+    
+}
+.vission{
+    margin: 0 20px;
+}
+.motivation{
+    margin: 0 30px;
+      
+    
+}
+
+
+
+.mission h2,.vission h2,.objective h2,.motivation h2{
+    
+       text-transform: uppercase;
+    font-size: 20px;
+    margin-bottom: 20px;
+    color: #350452;
+}
+.mission p,.vission p,.objective p,.motivation p
+{
+    line-height: 25px;
+    font-size: 18px;
+    color: #555;
+}
+.mission a,.vission a,.objective a,.motivation a
+{
+    background-color: #350452;
+    text-decoration: none;
+    padding: 15px 30px;
+    color: #fff!important;
+    font-size: 18px;
+}
+.main-content{
+    background-color: #350452;
+  margin-left: 6%;
+  margin-right: 7%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+
+}
+
+.objective{
+    color: bisque;
+    background-color: black;
+}
+.info h2{
+    text-align: center;
+
+}
+.ne{
+    display: flex;
+}
+
+.services{
+    
+    display: flex;
+}
+footer{
+    text-align: center;
+    color: aqua;
+     background-color: #350452;
+    margin-top: 1px;
+}
+.services img{
+    width: 30%;
+    margin-right: 15px;
+}
+@media(max-width:768px){
+    .desc{
+        flex-direction: column;
+    }
+    .info{
+        display: flex;
+         margin-bottom: 30px;
+    }
+    .mission,.vission,.objective,.motivation{
+        width: 100%;
+        height: 100%;
+        
+    }
+    .services{
+        display: flex;
+    
+    }
+    .services img{
+        width: 100%;
+        margin-bottom: 15px;
+    }
+    header{
+        margin: 20px 0;
+
+    }
+    .main-container{
+        width: 100%;
+    }
+    .desc img{
+        width: 100%;
+    height: 40%;
+    
+    }
+    .para{
+        width: 100%;
+    }
+    .para h2,.m,.k{
+    margin: 50px 50px ;
+    line-height: 40px;
+}
+
+}
